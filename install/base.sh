@@ -22,6 +22,7 @@ apps=(
     caskroom/cask/brew-cask
     mackup
     fish
+    zsh
     macvim
     vim
 )
@@ -44,4 +45,7 @@ brew cask cleanup
 
 pip install --upgrade pip
 pip install powerline-status
+
+#oh-my-zsh install
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 

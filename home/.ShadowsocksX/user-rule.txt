@@ -1,0 +1,14 @@
+! Put user rules line by line in this file.
+! See https://adblockplus.org/en/filter-cheatsheet
+||github.com
+||godaddy.com
+||www.html5rocks.com
+||tinypng.com
+||atom.io
+||www.take-a-screenshot.org
+||www.npmjs.com
+||jqueryui.com
+||sublimetext.com
+||githubusercontent.com
+||nodejs.org
+||clients4.google.com

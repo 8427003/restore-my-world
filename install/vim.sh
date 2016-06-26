@@ -13,4 +13,4 @@ mkdir -p "$BUNDLE_DIR" && (git clone https://github.com/VundleVim/Vundle.vim "$B
 vim +PluginInstall +qall
 
 # Install fonts
-cp -rf $DOTFILES_DIR/fonts/* ~/Library/Fonts/
+#cp -rf $DOTFILES_DIR/fonts/* ~/Library/Fonts/

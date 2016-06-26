@@ -1,2 +1,3 @@
-# restore-my-world
-install apps, restore dotfiles and so on when getting a new mac
+# restore my world 
+
+git clone && sh install.sh

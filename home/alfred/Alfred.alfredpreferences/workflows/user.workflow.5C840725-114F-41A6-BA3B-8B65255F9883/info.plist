@@ -303,6 +303,7 @@ $ID_NAM_MAP = array (
 	'ye' =&gt; '李化云',
 	'ad' =&gt; 'GXandoo',
 	'xx' =&gt; 'theskyofxier',
+	'xl' =&gt; 'FreeIsJ',
 );
 
 if(!isset($ID_NAM_MAP[$query])){

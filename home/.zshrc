@@ -89,6 +89,7 @@ source $ZSH/oh-my-zsh.sh
 # ###########################custom##########################
 #tmux source ~/.tmux.conf
 alias help='tldr'
+alias sb='sh build.sh'
 alias vim='/usr/local/Cellar/macvim/7.4-104/MacVim.app/Contents/MacOS/Vim'
 alias vi='/usr/local/Cellar/macvim/7.4-104/MacVim.app/Contents/MacOS/Vim'
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh

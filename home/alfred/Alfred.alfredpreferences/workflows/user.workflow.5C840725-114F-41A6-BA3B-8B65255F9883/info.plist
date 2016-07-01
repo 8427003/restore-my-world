@@ -21,6 +21,70 @@
 				<false/>
 			</dict>
 		</array>
+		<key>31340BDE-EEA3-44FC-9108-F0C729FAEF9A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>807CA040-92B9-4733-9602-E08198CF0BD5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7DB130A3-E9E5-41DD-98B4-4DD5EAD3886E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3EE88B84-C550-4743-BC61-B85FD85F88BC</key>
+		<array/>
+		<key>5D86564D-AFDB-4CCB-AF7B-1373EDFDD32F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3EE88B84-C550-4743-BC61-B85FD85F88BC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7DB130A3-E9E5-41DD-98B4-4DD5EAD3886E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5D86564D-AFDB-4CCB-AF7B-1373EDFDD32F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>807CA040-92B9-4733-9602-E08198CF0BD5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>92FA7F38-D1F7-40F4-BB48-E7024C2D1C3C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>8107B957-52A8-4FA5-A28E-693CB57DE41F</key>
 		<array>
 			<dict>
@@ -47,6 +111,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>A877BDF7-834F-457F-8D7A-6808728EB609</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6A558957-98C1-45F6-88C3-2A29B33A29BE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>F71FDD8F-3733-4912-8C3F-4CD27361E95F</key>
 		<array>
 			<dict>
@@ -64,7 +141,17 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>92FA7F38-D1F7-40F4-BB48-E7024C2D1C3C</string>
+				<string>807CA040-92B9-4733-9602-E08198CF0BD5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7DB130A3-E9E5-41DD-98B4-4DD5EAD3886E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -87,27 +174,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>hi</string>
-				<key>subtext</key>
-				<string>hi</string>
-				<key>text</key>
-				<string>hi</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>F7DBCEE1-B7FB-40BE-B0E2-03206126589A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>paths</key>
 				<array>
 					<string>/Applications/百度Hi.app</string>
@@ -121,6 +187,143 @@
 			<string>92FA7F38-D1F7-40F4-BB48-E7024C2D1C3C</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>hi</string>
+				<key>subtext</key>
+				<string>名称：</string>
+				<key>text</key>
+				<string>hi</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>F7DBCEE1-B7FB-40BE-B0E2-03206126589A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>807CA040-92B9-4733-9602-E08198CF0BD5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>7DB130A3-E9E5-41DD-98B4-4DD5EAD3886E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>h</string>
+				<key>subtext</key>
+				<string>名称：</string>
+				<key>text</key>
+				<string>hi</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>31340BDE-EEA3-44FC-9108-F0C729FAEF9A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.apple.PBLinkHandler</string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>baidu://message/?id={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>3EE88B84-C550-4743-BC61-B85FD85F88BC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>100</integer>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$ID_NAM_MAP = array (
+	'yk' =&gt; 'syaokun219',	
+	'qq' =&gt; 'qiaoqiaozaio',
+	'ye' =&gt; '李化云',
+	'ad' =&gt; 'GXandoo',
+	'xx' =&gt; 'theskyofxier',
+);
+
+if(!isset($ID_NAM_MAP[$query])){
+	echo $query;
+}
+else {
+	echo $ID_NAM_MAP[$query];
+}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>5D86564D-AFDB-4CCB-AF7B-1373EDFDD32F</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -240,6 +443,44 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Notes.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>6A558957-98C1-45F6-88C3-2A29B33A29BE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>bw</string>
+				<key>subtext</key>
+				<string>备忘录</string>
+				<key>text</key>
+				<string>备忘录</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A877BDF7-834F-457F-8D7A-6808728EB609</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -250,7 +491,21 @@
 			<key>xpos</key>
 			<integer>50</integer>
 			<key>ypos</key>
-			<integer>210</integer>
+			<integer>250</integer>
+		</dict>
+		<key>31340BDE-EEA3-44FC-9108-F0C729FAEF9A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+		<key>3EE88B84-C550-4743-BC61-B85FD85F88BC</key>
+		<dict>
+			<key>xpos</key>
+			<integer>660</integer>
+			<key>ypos</key>
+			<integer>150</integer>
 		</dict>
 		<key>432DD592-2563-43D2-B81C-3D808D8AD433</key>
 		<dict>
@@ -258,6 +513,34 @@
 			<integer>350</integer>
 			<key>ypos</key>
 			<integer>570</integer>
+		</dict>
+		<key>5D86564D-AFDB-4CCB-AF7B-1373EDFDD32F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
+			<key>ypos</key>
+			<integer>150</integer>
+		</dict>
+		<key>6A558957-98C1-45F6-88C3-2A29B33A29BE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>810</integer>
+		</dict>
+		<key>7DB130A3-E9E5-41DD-98B4-4DD5EAD3886E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>290</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+		<key>807CA040-92B9-4733-9602-E08198CF0BD5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>290</integer>
+			<key>ypos</key>
+			<integer>10</integer>
 		</dict>
 		<key>8107B957-52A8-4FA5-A28E-693CB57DE41F</key>
 		<dict>
@@ -269,16 +552,16 @@
 		<key>92FA7F38-D1F7-40F4-BB48-E7024C2D1C3C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>320</integer>
+			<integer>530</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>10</integer>
 		</dict>
 		<key>95C96E01-248F-4C86-B1F4-EDE9F96C2863</key>
 		<dict>
 			<key>xpos</key>
-			<integer>330</integer>
+			<integer>340</integer>
 			<key>ypos</key>
-			<integer>230</integer>
+			<integer>310</integer>
 		</dict>
 		<key>9D688EAF-EEC8-4DEE-992A-D816AC89B334</key>
 		<dict>
@@ -287,19 +570,26 @@
 			<key>ypos</key>
 			<integer>650</integer>
 		</dict>
+		<key>A877BDF7-834F-457F-8D7A-6808728EB609</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>810</integer>
+		</dict>
 		<key>F71FDD8F-3733-4912-8C3F-4CD27361E95F</key>
 		<dict>
 			<key>xpos</key>
 			<integer>50</integer>
 			<key>ypos</key>
-			<integer>340</integer>
+			<integer>390</integer>
 		</dict>
 		<key>F7DBCEE1-B7FB-40BE-B0E2-03206126589A</key>
 		<dict>
 			<key>xpos</key>
 			<integer>50</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

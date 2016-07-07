@@ -308,6 +308,8 @@ $ID_NAM_MAP = array (
 	'kk' =&gt; '许愿树8j',
 	'sp' =&gt; 'lsp414856335',
 	'cy' =&gt; 'chenyang7361',
+	'sq' =&gt; '双权汪',
+	'qt' =&gt; '喜糖98',
 );
 
 if(!isset($ID_NAM_MAP[$query])){

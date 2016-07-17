@@ -310,6 +310,10 @@ $ID_NAM_MAP = array (
 	'cy' =&gt; 'chenyang7361',
 	'sq' =&gt; '双权汪',
 	'qt' =&gt; '喜糖98',
+	'zn' =&gt; '迪波威',
+	'fj' =&gt; 'wufangjiana',
+	'qm' =&gt; '路过的小明',
+	'sf' =&gt; '凡速飞',
 );
 
 if(!isset($ID_NAM_MAP[$query])){

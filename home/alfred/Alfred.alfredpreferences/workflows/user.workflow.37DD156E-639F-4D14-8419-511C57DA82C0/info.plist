@@ -25,7 +25,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>24C49659-BF6A-4BBE-9654-E1C3188D9280</string>
+				<string>7A0E70FA-C913-4984-893C-F5054CFA2B36</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -36,6 +36,19 @@
 		</array>
 		<key>7686C74A-A33F-49C2-8231-40F1569A481A</key>
 		<array/>
+		<key>7A0E70FA-C913-4984-893C-F5054CFA2B36</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>24C49659-BF6A-4BBE-9654-E1C3188D9280</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string></string>
@@ -81,6 +94,23 @@ else {
 			<string>24C49659-BF6A-4BBE-9654-E1C3188D9280</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/QQ.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>7A0E70FA-C913-4984-893C-F5054CFA2B36</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -143,9 +173,9 @@ end alfred_script</string>
 		<key>24C49659-BF6A-4BBE-9654-E1C3188D9280</key>
 		<dict>
 			<key>xpos</key>
-			<integer>250</integer>
+			<integer>480</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>40</integer>
 		</dict>
 		<key>264A09D9-DE34-403A-9524-C67F6525811D</key>
 		<dict>
@@ -157,9 +187,16 @@ end alfred_script</string>
 		<key>7686C74A-A33F-49C2-8231-40F1569A481A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>450</integer>
+			<integer>670</integer>
 			<key>ypos</key>
-			<integer>80</integer>
+			<integer>60</integer>
+		</dict>
+		<key>7A0E70FA-C913-4984-893C-F5054CFA2B36</key>
+		<dict>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>50</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

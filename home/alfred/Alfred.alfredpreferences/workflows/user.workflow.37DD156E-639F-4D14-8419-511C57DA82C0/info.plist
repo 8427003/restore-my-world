@@ -8,11 +8,24 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>264A09D9-DE34-403A-9524-C67F6525811D</key>
+		<key>24C49659-BF6A-4BBE-9654-E1C3188D9280</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>7686C74A-A33F-49C2-8231-40F1569A481A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>264A09D9-DE34-403A-9524-C67F6525811D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>24C49659-BF6A-4BBE-9654-E1C3188D9280</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -37,32 +50,37 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q) 
-tell application "System Events" 
-set isQQRunning to exists (processes where name is "QQ") 
-end tell 
-if not isQQRunning then 
-tell application "QQ" to launch 
-delay 0.5 
-end if 
-tell application "QQ" to activate --- activates QQ 
-tell application "System Events" 
-tell process "QQ" --- implying QQ is already activated 
-key code 3 using {command down} --- send cmd+F to Sparrow invoking search 
-keystroke  q --- enter the query 
-end tell 
-end tell 
-end alfred_script</string>
-				<key>cachescript</key>
+				<key>concurrently</key>
 				<false/>
+				<key>escaping</key>
+				<integer>100</integer>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$ID_NAM_MAP = array (
+	'yk' =&gt; '627571', // 姚锟
+	'844860607' =&gt; '844860607', //秦阳
+);
+
+if(!isset($ID_NAM_MAP[$query])){
+	echo $query;
+}
+else {
+	echo $ID_NAM_MAP[$query];
+}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>1</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>7686C74A-A33F-49C2-8231-40F1569A481A</string>
+			<string>24C49659-BF6A-4BBE-9654-E1C3188D9280</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -85,11 +103,49 @@ end alfred_script</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q) 
+tell application "System Events" 
+set isQQRunning to exists (processes where name is "QQ") 
+end tell 
+if not isQQRunning then 
+tell application "QQ" to launch 
+delay 0.5 
+end if 
+tell application "QQ" to activate --- activates QQ 
+tell application "System Events" 
+tell process "QQ" --- implying QQ is already activated 
+key code 3 using {command down} --- send cmd+F to Sparrow invoking search 
+keystroke  q --- enter the query 
+key code 36
+end tell 
+end tell 
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>7686C74A-A33F-49C2-8231-40F1569A481A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>24C49659-BF6A-4BBE-9654-E1C3188D9280</key>
+		<dict>
+			<key>xpos</key>
+			<integer>250</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
 		<key>264A09D9-DE34-403A-9524-C67F6525811D</key>
 		<dict>
 			<key>xpos</key>
@@ -100,9 +156,9 @@ end alfred_script</string>
 		<key>7686C74A-A33F-49C2-8231-40F1569A481A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>270</integer>
+			<integer>450</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>80</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

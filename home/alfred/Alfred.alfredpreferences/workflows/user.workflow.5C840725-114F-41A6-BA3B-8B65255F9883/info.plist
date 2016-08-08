@@ -314,6 +314,7 @@ $ID_NAM_MAP = array (
 	'fj' =&gt; 'wufangjiana',
 	'qm' =&gt; '路过的小明',
 	'sf' =&gt; '凡速飞',
+	'fy' =&gt; 'fankux',
 );
 
 if(!isset($ID_NAM_MAP[$query])){

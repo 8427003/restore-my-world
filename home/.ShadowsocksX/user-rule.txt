@@ -12,3 +12,4 @@
 ||githubusercontent.com
 ||nodejs.org
 ||clients4.google.com
+||news.ycombinator.com

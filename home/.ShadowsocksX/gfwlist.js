@@ -3874,6 +3874,8 @@ var rules = [
   "||sublimetext.com",
   "||githubusercontent.com",
   "||nodejs.org",
+  "||clients4.google.com",
+  "||news.ycombinator.com",
   "||https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/gsap\/1.18.2\/TweenMax.min.js"
 ];
 

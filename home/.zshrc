@@ -89,6 +89,7 @@ source $ZSH/oh-my-zsh.sh
 #tmux source ~/.tmux.conf
 alias help='tldr'
 alias sb='sh build.sh'
+alias relay='/Users/baidu/bin/relay_auto_login/relay'
 alias -s c=c
 alias -s js='node'
 c () {

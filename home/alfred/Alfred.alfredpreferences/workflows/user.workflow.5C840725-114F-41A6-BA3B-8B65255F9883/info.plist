@@ -315,6 +315,8 @@ $ID_NAM_MAP = array (
 	'qm' =&gt; '路过的小明',
 	'sf' =&gt; '凡速飞',
 	'fy' =&gt; 'fankux',
+	'wh' =&gt; 'wanghui_1207',
+	'xt' =&gt; 'txtszas',
 );
 
 if(!isset($ID_NAM_MAP[$query])){
@@ -363,7 +365,7 @@ else {
 			<dict>
 				<key>paths</key>
 				<array>
-					<string>/Applications/BaiduInternalPlatform10-10.app</string>
+					<string>/Applications/BaiduInternalPlatform-1.0.1.26.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>

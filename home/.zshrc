@@ -90,6 +90,8 @@ source $ZSH/oh-my-zsh.sh
 alias help='tldr'
 alias sb='sh build.sh'
 alias relay='/Users/baidu/bin/relay_auto_login/relay'
+alias vim='/usr/local/Cellar/macvim/8.0-110/MacVim.app/Contents/MacOS/Vim'
+alias vi='/usr/local/Cellar/macvim/8.0-110/MacVim.app/Contents/MacOS/Vim'
 alias -s c=c
 alias -s js='node'
 c () {
@@ -97,9 +99,14 @@ c () {
     ./a.out;
     rm -rf ./a.out;
 }
-alias vim='/usr/local/Cellar/macvim/7.4-104/MacVim.app/Contents/MacOS/Vim'
-alias vi='/usr/local/Cellar/macvim/7.4-104/MacVim.app/Contents/MacOS/Vim'
+
+
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 
 export PATH=/Users/baidu/git/depot_tools:"$PATH"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# added by travis gem
+[ -f /Users/baidu/.travis/travis.sh ] && source /Users/baidu/.travis/travis.sh

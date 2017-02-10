@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/baidu/.oh-my-zsh
+export ZSH=/Users/lijun/.oh-my-zsh
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -50,6 +50,8 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions)
 
+
+
 # User configuration
 
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
@@ -89,11 +91,15 @@ source $ZSH/oh-my-zsh.sh
 #tmux source ~/.tmux.conf
 alias help='tldr'
 alias sb='sh build.sh'
-alias relay='/Users/baidu/bin/relay_auto_login/relay'
-alias vim='/usr/local/Cellar/macvim/8.0-110/MacVim.app/Contents/MacOS/Vim'
-alias vi='/usr/local/Cellar/macvim/8.0-110/MacVim.app/Contents/MacOS/Vim'
+alias relay='/Users/lijun/bin/relay_auto_login/relay'
+#alias vim='/usr/local/Cellar/macvim/8.0-110/MacVim.app/Contents/MacOS/Vim'
+#alias vi='/usr/local/Cellar/macvim/8.0-110/MacVim.app/Contents/MacOS/Vim'
+alias vim='/usr/local/bin/nvim'
+alias vi='/usr/local/bin/nvim'
 alias -s c=c
 alias -s js='node'
+alias p='proxychains4'
+
 c () {
     gcc $1;
     ./a.out;
@@ -104,9 +110,13 @@ c () {
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
 
-export PATH=/Users/baidu/git/depot_tools:"$PATH"
+export PATH=/Users/lijun/bin/bin:/Users/lijun/n/bin:"$PATH"
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # added by travis gem
-[ -f /Users/baidu/.travis/travis.sh ] && source /Users/baidu/.travis/travis.sh
+[ -f /Users/lijun/.travis/travis.sh ] && source /Users/lijun/.travis/travis.sh
+
+ export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

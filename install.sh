@@ -19,4 +19,7 @@ xcode-select --install
 . "$DOTFILES_DIR/install/dotfiles.sh"
 . "$DOTFILES_DIR/install/vim.sh"
 
+function (){
+
+}
 

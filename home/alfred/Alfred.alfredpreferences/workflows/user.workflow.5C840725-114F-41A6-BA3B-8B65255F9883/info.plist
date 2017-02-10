@@ -8,19 +8,6 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>27FD4CF9-2E14-4102-A6F0-9DEDB53431AA</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>95C96E01-248F-4C86-B1F4-EDE9F96C2863</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>31340BDE-EEA3-44FC-9108-F0C729FAEF9A</key>
 		<array>
 			<dict>
@@ -98,6 +85,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>8E27B2AA-E168-4DB6-B471-F8FA317D40D7</key>
+		<array/>
 		<key>9D688EAF-EEC8-4DEE-992A-D816AC89B334</key>
 		<array>
 			<dict>
@@ -128,7 +117,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>95C96E01-248F-4C86-B1F4-EDE9F96C2863</string>
+				<string>8E27B2AA-E168-4DB6-B471-F8FA317D40D7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -342,30 +331,9 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>zr</string>
-				<key>subtext</key>
-				<string>zhunru</string>
-				<key>text</key>
-				<string>zhunru</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>27FD4CF9-2E14-4102-A6F0-9DEDB53431AA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>paths</key>
 				<array>
-					<string>/Applications/BaiduInternalPlatform-1.0.1.26.app</string>
+					<string>/Applications/Google Chrome.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
@@ -373,7 +341,7 @@ else {
 			<key>type</key>
 			<string>alfred.workflow.action.launchfiles</string>
 			<key>uid</key>
-			<string>95C96E01-248F-4C86-B1F4-EDE9F96C2863</string>
+			<string>8E27B2AA-E168-4DB6-B471-F8FA317D40D7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -383,11 +351,11 @@ else {
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>zhunru</string>
+				<string>ch</string>
 				<key>subtext</key>
-				<string>zhunru</string>
+				<string>chrome</string>
 				<key>text</key>
-				<string>zhunru</string>
+				<string>chrome</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -500,13 +468,6 @@ else {
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>27FD4CF9-2E14-4102-A6F0-9DEDB53431AA</key>
-		<dict>
-			<key>xpos</key>
-			<integer>50</integer>
-			<key>ypos</key>
-			<integer>250</integer>
-		</dict>
 		<key>31340BDE-EEA3-44FC-9108-F0C729FAEF9A</key>
 		<dict>
 			<key>xpos</key>
@@ -563,19 +524,19 @@ else {
 			<key>ypos</key>
 			<integer>540</integer>
 		</dict>
+		<key>8E27B2AA-E168-4DB6-B471-F8FA317D40D7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>390</integer>
+		</dict>
 		<key>92FA7F38-D1F7-40F4-BB48-E7024C2D1C3C</key>
 		<dict>
 			<key>xpos</key>
 			<integer>530</integer>
 			<key>ypos</key>
 			<integer>10</integer>
-		</dict>
-		<key>95C96E01-248F-4C86-B1F4-EDE9F96C2863</key>
-		<dict>
-			<key>xpos</key>
-			<integer>340</integer>
-			<key>ypos</key>
-			<integer>310</integer>
 		</dict>
 		<key>9D688EAF-EEC8-4DEE-992A-D816AC89B334</key>
 		<dict>

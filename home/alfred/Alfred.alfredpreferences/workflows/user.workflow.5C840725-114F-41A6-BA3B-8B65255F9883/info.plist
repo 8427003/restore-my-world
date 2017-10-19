@@ -59,6 +59,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>7E3A4556-1E56-4711-9332-C4C5055D62BF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8E27B2AA-E168-4DB6-B471-F8FA317D40D7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>807CA040-92B9-4733-9602-E08198CF0BD5</key>
 		<array>
 			<dict>
@@ -331,6 +344,27 @@ else {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>c</string>
+				<key>subtext</key>
+				<string>chrome</string>
+				<key>text</key>
+				<string>chrome</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>7E3A4556-1E56-4711-9332-C4C5055D62BF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>paths</key>
 				<array>
 					<string>/Applications/Google Chrome.app</string>
@@ -510,6 +544,13 @@ else {
 			<key>ypos</key>
 			<integer>100</integer>
 		</dict>
+		<key>7E3A4556-1E56-4711-9332-C4C5055D62BF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>260</integer>
+		</dict>
 		<key>807CA040-92B9-4733-9602-E08198CF0BD5</key>
 		<dict>
 			<key>xpos</key>
@@ -527,9 +568,9 @@ else {
 		<key>8E27B2AA-E168-4DB6-B471-F8FA317D40D7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>220</integer>
+			<integer>270</integer>
 			<key>ypos</key>
-			<integer>390</integer>
+			<integer>360</integer>
 		</dict>
 		<key>92FA7F38-D1F7-40F4-BB48-E7024C2D1C3C</key>
 		<dict>

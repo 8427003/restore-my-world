@@ -48,7 +48,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions web-search)
 
 
 
@@ -92,13 +92,18 @@ source $ZSH/oh-my-zsh.sh
 alias help='tldr'
 alias sb='sh build.sh'
 alias relay='/Users/lijun/bin/relay_auto_login/relay'
-alias vim='/usr/local/Cellar/macvim/8.0-127/MacVim.app/Contents/MacOS/Vim'
+#alias vim='/usr/local/Cellar/macvim/8.0-127/MacVim.app/Contents/MacOS/Vim'
+alias vim='/usr/local/Cellar/vim/8.0.0398/bin/vim'
 alias vi='/usr/local/Cellar/macvim/8.0-127/MacVim.app/Contents/MacOS/Vim'
+
 #alias vim='/usr/local/bin/nvim'
 #alias vi='/usr/local/bin/nvim'
+export EDITOR='/usr/local/bin/nvim'
 alias -s c=c
 alias -s js='node'
-alias p='proxychains4'
+alias d='docker'
+
+export PAGER=most #main brew install most
 
 c () {
     gcc $1;
@@ -111,12 +116,18 @@ c () {
 
 
 export PATH=/Users/lijun/bin/bin:/Users/lijun/n/bin:"$PATH"
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 
 # added by travis gem
-[ -f /Users/lijun/.travis/travis.sh ] && source /Users/lijun/.travis/travis.sh
+#[ -f /Users/lijun/.travis/travis.sh ] && source /Users/lijun/.travis/travis.sh
 
- export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
+#export NVM_DIR="$HOME/.nvm"
+#  . "/usr/local/opt/nvm/nvm.sh"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+#android
+export ANDROID_HOME=/Users/lijun/Library/Android/sdk
+export PATH=${PATH}:/Users/lijun/Library/Android/sdk/platform-tools:/Users/lijun/Library/Android/sdk/tools

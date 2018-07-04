@@ -274,11 +274,11 @@
 			<key>config</key>
 			<dict>
 				<key>browser</key>
-				<string>com.apple.PBLinkHandler</string>
+				<string></string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>baidu://message/?id={query}</string>
+				<string>dingtalk://dingtalkclient/action/sendmsg?dingtalk_id={query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -300,25 +300,7 @@
 				<string>$query = "{query}";
 
 $ID_NAM_MAP = array (
-	'yk' =&gt; 'syaokun219',	
-	'qq' =&gt; 'qiaoqiaozaio',
-	'ye' =&gt; '李化云',
-	'ad' =&gt; 'GXandoo',
-	'xx' =&gt; 'theskyofxier',
-	'xl' =&gt; 'FreeIsJ',
-	'yy' =&gt; '殷勇02',
-	'kk' =&gt; '许愿树8j',
-	'sp' =&gt; 'lsp414856335',
-	'cy' =&gt; 'chenyang7361',
-	'sq' =&gt; '双权汪',
-	'qt' =&gt; '喜糖98',
-	'zn' =&gt; '迪波威',
-	'fj' =&gt; 'wufangjiana',
-	'qm' =&gt; '路过的小明',
-	'sf' =&gt; '凡速飞',
-	'fy' =&gt; 'fankux',
-	'wh' =&gt; 'wanghui_1207',
-	'xt' =&gt; 'txtszas',
+	'yt' =&gt; 'yutao7039',	
 );
 
 if(!isset($ID_NAM_MAP[$query])){

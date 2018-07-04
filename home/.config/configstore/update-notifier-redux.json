@@ -1,0 +1,10 @@
+{
+	"optOut": false,
+	"lastUpdateCheck": 1529601250383,
+	"update": {
+		"latest": "4.0.0",
+		"current": "3.7.2",
+		"type": "major",
+		"name": "redux"
+	}
+}

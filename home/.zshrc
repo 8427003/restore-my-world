@@ -102,6 +102,8 @@ export EDITOR='/usr/local/bin/nvim'
 alias -s c=c
 alias -s js='node'
 alias d='docker'
+alias linux='docker start myLinux && docker attach myLinux'
+alias d8='docker start d8 && docker attach d8'
 
 export PAGER=most #main brew install most
 
@@ -120,6 +122,7 @@ export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 
+
 # added by travis gem
 #[ -f /Users/lijun/.travis/travis.sh ] && source /Users/lijun/.travis/travis.sh
 
@@ -131,3 +134,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 #android
 export ANDROID_HOME=/Users/lijun/Library/Android/sdk
 export PATH=${PATH}:/Users/lijun/Library/Android/sdk/platform-tools:/Users/lijun/Library/Android/sdk/tools
+
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).

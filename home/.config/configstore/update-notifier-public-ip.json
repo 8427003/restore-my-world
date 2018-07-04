@@ -1,0 +1,10 @@
+{
+	"optOut": false,
+	"lastUpdateCheck": 1529600160956,
+	"update": {
+		"latest": "2.4.0",
+		"current": "0.9.2",
+		"type": "major",
+		"name": "public-ip"
+	}
+}

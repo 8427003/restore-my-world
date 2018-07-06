@@ -21,17 +21,11 @@ brew upgrade --all
 apps=(
     caskroom/cask/brew-cask
     mackup
-    fish
-    zsh
-    macvim
-    vim
 )
 
 caskapps=(
-    alfred
     iterm2
     google-chrome
-    sogouinput
 )
 
 brew install "${apps[@]}"

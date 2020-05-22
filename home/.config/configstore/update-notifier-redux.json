@@ -1,8 +1,8 @@
 {
 	"optOut": false,
-	"lastUpdateCheck": 1529601250383,
+	"lastUpdateCheck": 1558189256362,
 	"update": {
-		"latest": "4.0.0",
+		"latest": "4.0.1",
 		"current": "3.7.2",
 		"type": "major",
 		"name": "redux"

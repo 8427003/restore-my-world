@@ -1,39 +1,52 @@
-# Recent settings file for Wireshark 2.2.6.
+# Common recent settings file for Wireshark 3.2.3.
 #
-# This file is regenerated each time Wireshark is quit.
+# This file is regenerated each time Wireshark is quit
+# and when changing configuration profile.
 # So be careful, if you want to make manual changes here.
 
 ######## Recent capture files (latest last), cannot be altered through command line ########
 
+recent.capture_file: /Users/lijun/205-6.cap
+recent.capture_file: /Users/lijun/191-6.cap
+recent.capture_file: /Users/lijun/207-66.cap
+recent.capture_file: /Users/lijun/Downloads/4.cap
+recent.capture_file: /Users/lijun/7.cap
+recent.capture_file: /Users/lijun/8.cap
+recent.capture_file: /Users/lijun/9.cap
+recent.capture_file: /Users/lijun/git/ty-yuanyin/dist/static/10.cap
+recent.capture_file: /Users/lijun/205-66.cap
+recent.capture_file: /Users/lijun/207-6.cap
 
 ######## Recent capture filters (latest last), cannot be altered through command line ########
 
 
 ######## Recent display filters (latest last), cannot be altered through command line ########
 
-recent.display_filter: ip
-recent.display_filter: tcp.port == 80
-recent.display_filter: tcp.port == 8124
-recent.display_filter: ip.addr == 121.40.123.12
-recent.display_filter: tcp.port == 8080
-recent.display_filter: tcp.port == 9090
-recent.display_filter: tcp.port == 80 || udp.port == 80
-recent.display_filter: tcp
-recent.display_filter: t
-recent.display_filter: ip.
+recent.display_filter: ip.dst == 47.94.212.138
+recent.display_filter: tcp.stream eq 29
+recent.display_filter: tcp.port == 30004
+recent.display_filter: tcp.port == 8072
+recent.display_filter: ip.dst == 39.107.249.10
+recent.display_filter: tcp.dstport == 443
+recent.display_filter: ip.dst == 39.106.189.173
+recent.display_filter: tcp.stream eq 281
+recent.display_filter: tcp.stream eq 590
+recent.display_filter: tcp.stream eq 0
 
 # Main window geometry.
 # Decimal numbers.
-gui.geometry_main_x: 333
-gui.geometry_main_y: 47
-gui.gtk.geometry_main_x: 20
-gui.gtk.geometry_main_y: 20
-gui.geometry_main_width: 960
-gui.geometry_main_height: 687
+gui.geometry_main_x: 59
+gui.geometry_main_y: 95
+gui.geometry_main_width: 1305
+gui.geometry_main_height: 768
 
 # Main window maximized.
 # TRUE or FALSE (case-insensitive).
 gui.geometry_main_maximized: FALSE
+
+# Leftalign Action Buttons.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_leftalign_actions: FALSE
 
 # Statusbar left pane size.
 # Decimal number.
@@ -58,14 +71,75 @@ privs.warn_if_elevated: TRUE
 # TRUE or FALSE (case-insensitive).
 privs.warn_if_no_npf: TRUE
 
+# Find packet search in.
+# One of: PACKET_LIST, PACKET_DETAILS, PACKET_BYTES
+gui.search_in: PACKET_LIST
+
+# Find packet character set.
+# One of: NARROW_AND_WIDE, NARROW, WIDE
+gui.search_char_set: NARROW_AND_WIDE
+
+# Find packet case sensitive search.
+# TRUE or FALSE (case-insensitive).
+gui.search_case_sensitive: TRUE
+
+# Find packet search type.
+# One of: DISPLAY_FILTER, HEX_VALUE, STRING, REGEX
+gui.search_type: STRING
+
+# Geometry and maximized state of PreferencesDialog window.
+# Decimal integers.
+gui.geom.PreferencesDialog.x: 394
+gui.geom.PreferencesDialog.y: 167
+gui.geom.PreferencesDialog.width: 680
+gui.geom.PreferencesDialog.height: 475
+# TRUE or FALSE (case-insensitive).
+gui.geom.PreferencesDialog.maximized: FALSE
+
+# Geometry and maximized state of BluetoothAttServerAttributesDialog window.
+# Decimal integers.
+gui.geom.BluetoothAttServerAttributesDialog.x: 0
+gui.geom.BluetoothAttServerAttributesDialog.y: 136
+gui.geom.BluetoothAttServerAttributesDialog.width: 1440
+gui.geom.BluetoothAttServerAttributesDialog.height: 523
+# TRUE or FALSE (case-insensitive).
+gui.geom.BluetoothAttServerAttributesDialog.maximized: FALSE
+
 # Geometry and maximized state of PacketDialog window.
 # Decimal integers.
-gui.geom.PacketDialog.x: 128
-gui.geom.PacketDialog.y: 99
+gui.geom.PacketDialog.x: 182
+gui.geom.PacketDialog.y: 87
 gui.geom.PacketDialog.width: 1024
 gui.geom.PacketDialog.height: 600
 # TRUE or FALSE (case-insensitive).
 gui.geom.PacketDialog.maximized: FALSE
+
+# Geometry and maximized state of FollowStreamDialog window.
+# Decimal integers.
+gui.geom.FollowStreamDialog.x: 376
+gui.geom.FollowStreamDialog.y: 23
+gui.geom.FollowStreamDialog.width: 780
+gui.geom.FollowStreamDialog.height: 687
+# TRUE or FALSE (case-insensitive).
+gui.geom.FollowStreamDialog.maximized: FALSE
+
+# Geometry and maximized state of ShowPacketBytesDialog window.
+# Decimal integers.
+gui.geom.ShowPacketBytesDialog.x: 294
+gui.geom.ShowPacketBytesDialog.y: 116
+gui.geom.ShowPacketBytesDialog.width: 864
+gui.geom.ShowPacketBytesDialog.height: 588
+# TRUE or FALSE (case-insensitive).
+gui.geom.ShowPacketBytesDialog.maximized: FALSE
+
+# Geometry and maximized state of ExpertInfoDialog window.
+# Decimal integers.
+gui.geom.ExpertInfoDialog.x: 372
+gui.geom.ExpertInfoDialog.y: 43
+gui.geom.ExpertInfoDialog.width: 702
+gui.geom.ExpertInfoDialog.height: 687
+# TRUE or FALSE (case-insensitive).
+gui.geom.ExpertInfoDialog.maximized: FALSE
 
 # Custom colors.
 # List of custom colors selected in Qt color picker.
